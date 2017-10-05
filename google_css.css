@@ -1,0 +1,92 @@
+/*Header*/
+
+/*AJOUT*/
+body{
+  height:98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+/*AJOUT*/
+
+
+nav{
+  text-align: right;
+    margin-top: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  font-size: 1em;
+  text-align: center;
+}
+.blanc{
+  color: white;
+}
+
+button{
+  background-color: blue;
+  width: 75px;
+}
+  /*main*/
+  
+
+.recherche_p{
+  width: 60%;
+  margin: auto;
+}
+
+img {
+  width: 40%;
+}
+main{
+  width: 50%;
+  margin : auto;
+  margin-top: 150px;
+  text-align: center;
+}
+#search{
+  width: 100%;
+  height: 30%;
+  margin-top: 20px;
+}
+#search-btn{
+  margin-top: 20px;
+  font-weight: bold;
+}
+p{
+  font-size: 0.8em;
+  display: block;
+}
+.elementGauche{
+  text-align: left;
+
+}
+
+.elementDroite{
+  text-align: right;
+}
+
+.blocfooter{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  
+}
+
+footer{
+
+/* RETRAIT
+  margin-top: 200px;
+*/
+
+/*AJOUT*/
+  line-height: 30px;
+/*AJOUT*/
+
+
+  background-color: #808080;
+}
+
